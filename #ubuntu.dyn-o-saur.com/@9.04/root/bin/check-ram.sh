@@ -1,0 +1,1 @@
+ps -u $1 -o pid,rss,command

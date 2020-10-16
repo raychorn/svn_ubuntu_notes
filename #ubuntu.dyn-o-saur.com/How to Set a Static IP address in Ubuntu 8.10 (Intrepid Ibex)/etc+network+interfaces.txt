@@ -1,0 +1,9 @@
+auto lo eth0
+iface lo inet loopback
+iface eth0 inet static
+address xxx.xxx.xxx.xxx(enter your ip here)
+netmask xxx.xxx.xxx.xxx
+gateway xxx.xxx.xxx.xxx(enter gateway ip here)
+
+========================================================
+

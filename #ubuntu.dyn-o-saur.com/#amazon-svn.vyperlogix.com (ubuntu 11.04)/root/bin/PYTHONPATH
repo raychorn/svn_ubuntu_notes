@@ -1,0 +1,1 @@
+export PYTHONPATH=/root/python/libs/vyperlogix_2_5_5.zip:/usr/lib/python2.5/site-packages:/usr/share/pyshared:$PYTHONPATH

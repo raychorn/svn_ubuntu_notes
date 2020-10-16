@@ -1,0 +1,1 @@
+https://server5979.vyperlogix.com:443/svn/repo1/trunk/smithmicro.com/Analytics/trunk/analytics_portal

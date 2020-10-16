@@ -1,0 +1,12 @@
+Cherokee Web Server 1.2.99 (Sep 11 2011): Listening on port 0.0.0.0:9090, TLS
+disabled, IPv6 enabled, using epoll, 4096 fds system limit, max. 2041
+connections, caching I/O, 32 threads, 63 connections per thread, standard
+scheduling policy
+
+Login:
+  User:              admin
+  One-time Password: uB99TnOMJQMwEUCu
+
+Web Interface:
+  URL:               http://0.0.0.0:9090/
+

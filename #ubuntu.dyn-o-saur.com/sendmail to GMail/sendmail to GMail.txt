@@ -1,0 +1,42 @@
+This is based on my Ubuntu 8.10 Server ( 2.6.27-11-server) all patched up todays date and then I did the below.
+
+First off make sure you can actually resolve gmail.com, working ? good.
+
+sudo apt-get install sendmail
+sudo cp /etc/mail/sendmail.mc /etc/mail/sendmail.mc.orig
+sudo vi /etc/mail/sendmail.mc
+Add the following to the bottom of your virgin sendmail.mc (shift+g to get to end of file):
+
+define(`SMART_HOST',`smtp.gmail.com')dnl
+define(`confAUTH_MECHANISMS', `EXTERNAL GSSAPI DIGEST-MD5 CRAM-MD5 LOGIN PLAIN')dnl
+FEATURE(`authinfo',`hash /etc/mail/auth/client-info')dnl
+define(`CERT_DIR', `MAIL_SETTINGS_DIR`'certs')
+define(`confCACERT_PATH', `CERT_DIR')
+define(`confCACERT', `CERT_DIR/CAcert.pem')
+define(`confSERVER_CERT', `CERT_DIR/mycert.pem')
+define(`confSERVER_KEY', `CERT_DIR/mykey.pem')
+define(`confCLIENT_CERT', `CERT_DIR/mycert.pem')
+define(`confCLIENT_KEY', `CERT_DIR/mykey.pem')
+Save the file.
+
+sudo mkdir /etc/mail/auth
+sudo vi /etc/mail/auth/client-info
+Add the following line to the new client-info file replacing the text between the greater than and less than signs (did I need to spell that out ?):
+
+AuthInfo:smtp.gmail.com "U:root" "I:<YOUR GMAIL USERNAME HERE>@gmail.com" "P:<YOU GMAIL PASSWORD HERE>"
+Save the file.
+
+makemap hash client-info < client-info
+chmod 700 /etc/mail/auth
+chmod 600 /etc/mail/auth/*
+mkdir /etc/mail/certs
+cd /etc/mail/certs
+openssl dsaparam 1024 -out dsa1024 -out dsa1024.pem
+openssl req -x509 -nodes -days 3650 -newkey dsa:dsa1024.pem -out /etc/mail/certs/mycert.pem -keyout /etc/mail/certs/mykey.pem
+ln -s /etc/mail/certs/mycert.pem /etc/mail/certs/CAcert.pem
+openssl req -x509 -new -days 3650 -key /etc/mail/certs/mykey.pem -out /etc/mail/certs/mycert.pem
+chmod 700 /etc/mail/certs
+chmod 600 /etc/mail/certs/*
+cd /etc/mail
+make
+/etc/init.d/sendmail reload

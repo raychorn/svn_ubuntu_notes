@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+					<Styles><Style name="contentheading" element="p">
+										<Attribute name="class" value="contentheading" />
+									</Style>
+<Style name="button" element="p">
+										<Attribute name="class" value="button" />
+									</Style>
+<Style name="button:hover" element="p">
+										<Attribute name="class" value="button:hover" />
+									</Style>
+<Style name="inputbox" element="p">
+										<Attribute name="class" value="inputbox" />
+									</Style>
+<Style name="inputbox:hover" element="p">
+										<Attribute name="class" value="inputbox:hover" />
+									</Style>
+<Style name="quote-hilite" element="p">
+										<Attribute name="class" value="quote-hilite" />
+									</Style>
+<Style name="small-quote" element="p">
+										<Attribute name="class" value="small-quote" />
+									</Style>
+<Style name="dropcap" element="p">
+										<Attribute name="class" value="dropcap" />
+									</Style>
+<Style name="highlight" element="p">
+										<Attribute name="class" value="highlight" />
+									</Style>
+<Style name="blocknumber" element="p">
+										<Attribute name="class" value="blocknumber" />
+									</Style>
+<Style name="bignumber" element="p">
+										<Attribute name="class" value="bignumber" />
+									</Style>
+<Style name="bubble1" element="div">
+										<Attribute name="class" value="bubble1" />
+									</Style>
+<Style name="bubble2" element="div">
+										<Attribute name="class" value="bubble2" />
+									</Style>
+<Style name="bubble3" element="div">
+										<Attribute name="class" value="bubble3" />
+									</Style>
+<Style name="bubble4" element="div">
+										<Attribute name="class" value="bubble4" />
+									</Style>
+<Style name="legend-title" element="p">
+										<Attribute name="class" value="legend-title" />
+									</Style>
+<Style name="legend" element="p">
+										<Attribute name="class" value="legend" />
+									</Style>
+<Style name="blog" element="table">
+										<Attribute name="class" value="blog" />
+									</Style>
+<Style name="article_separator" element="p">
+										<Attribute name="class" value="article_separator" />
+									</Style>
+<Style name="article_column" element="p">
+										<Attribute name="class" value="article_column" />
+									</Style>
+<Style name="column_separator" element="p">
+										<Attribute name="class" value="column_separator" />
+									</Style>
+<Style name="sectiontableheader" element="td">
+										<Attribute name="class" value="sectiontableheader" />
+									</Style>
+<Style name="sectiontableentry0" element="tr">
+										<Attribute name="class" value="sectiontableentry0" />
+									</Style>
+<Style name="sectiontableentry1" element="tr">
+										<Attribute name="class" value="sectiontableentry1" />
+									</Style>
+<Style name="sectiontableentry2" element="tr">
+										<Attribute name="class" value="sectiontableentry2" />
+									</Style>
+<Style name="contentpane" element="table">
+										<Attribute name="class" value="contentpane" />
+									</Style>
+<Style name="contentpaneopen" element="table">
+										<Attribute name="class" value="contentpaneopen" />
+									</Style>
+<Style name="contenttoc" element="table">
+										<Attribute name="class" value="contenttoc" />
+									</Style>
+<Style name="poll" element="table">
+										<Attribute name="class" value="poll" />
+									</Style>
+<Style name="pollstableborder" element="table">
+										<Attribute name="class" value="pollstableborder" />
+									</Style>
+<Style name="searchintro" element="table">
+										<Attribute name="class" value="searchintro" />
+									</Style>
+<Style name="adminform" element="table">
+										<Attribute name="class" value="adminform" />
+									</Style>
+<Style name="blog_more" element="p">
+										<Attribute name="class" value="blog_more" />
+									</Style>
+<Style name="category" element="p">
+										<Attribute name="class" value="category" />
+									</Style>
+<Style name="componentheading" element="p">
+										<Attribute name="class" value="componentheading" />
+									</Style>
+<Style name="contentdescription" element="p">
+										<Attribute name="class" value="contentdescription" />
+									</Style>
+<Style name="moduletable" element="p">
+										<Attribute name="class" value="moduletable" />
+									</Style>
+<Style name="pagenavbar" element="p">
+										<Attribute name="class" value="pagenavbar" />
+									</Style>
+<Style name="pagenavcounter" element="p">
+										<Attribute name="class" value="pagenavcounter" />
+									</Style>
+<Style name="sectiontableentry1:hover" element="tr">
+										<Attribute name="class" value="sectiontableentry1:hover" />
+									</Style>
+<Style name="sectiontableentry2:hover" element="tr">
+										<Attribute name="class" value="sectiontableentry2:hover" />
+									</Style>
+<Style name="smalldark" element="p">
+										<Attribute name="class" value="smalldark" />
+									</Style>
+<Style name="syndicate" element="div">
+										<Attribute name="class" value="syndicate" />
+									</Style>
+<Style name="article-tools" element="p">
+										<Attribute name="class" value="article-tools" />
+									</Style>
+<Style name="article-meta" element="p">
+										<Attribute name="class" value="article-meta" />
+									</Style>
+<Style name="createby" element="p">
+										<Attribute name="class" value="createby" />
+									</Style>
+<Style name="createdate" element="p">
+										<Attribute name="class" value="createdate" />
+									</Style>
+<Style name="modifydate" element="p">
+										<Attribute name="class" value="modifydate" />
+									</Style>
+<Style name="buttonheading" element="div">
+										<Attribute name="class" value="buttonheading" />
+									</Style>
+<Style name="ja-wrapper" element="p">
+										<Attribute name="class" value="ja-wrapper" />
+									</Style>
+<Style name="ja-containerwrap" element="p">
+										<Attribute name="class" value="ja-containerwrap" />
+									</Style>
+<Style name="ja-containerwrap2" element="p">
+										<Attribute name="class" value="ja-containerwrap2" />
+									</Style>
+<Style name="ja-container" element="p">
+										<Attribute name="class" value="ja-container" />
+									</Style>
+<Style name="ja-container2" element="p">
+										<Attribute name="class" value="ja-container2" />
+									</Style>
+<Style name="ja-mainbody-fr" element="p">
+										<Attribute name="class" value="ja-mainbody-fr" />
+									</Style>
+<Style name="ja-mainbody" element="p">
+										<Attribute name="class" value="ja-mainbody" />
+									</Style>
+<Style name="ja-mainbody-fl" element="p">
+										<Attribute name="class" value="ja-mainbody-fl" />
+									</Style>
+<Style name="ja-mainbody-f" element="p">
+										<Attribute name="class" value="ja-mainbody-f" />
+									</Style>
+<Style name="ja-content" element="p">
+										<Attribute name="class" value="ja-content" />
+									</Style>
+<Style name="ja-contentwrap" element="p">
+										<Attribute name="class" value="ja-contentwrap" />
+									</Style>
+<Style name="ja-containerwrap-f" element="p">
+										<Attribute name="class" value="ja-containerwrap-f" />
+									</Style>
+<Style name="ja-containerwrap-fl" element="p">
+										<Attribute name="class" value="ja-containerwrap-fl" />
+									</Style>
+<Style name="ja-containerwrap-fr" element="p">
+										<Attribute name="class" value="ja-containerwrap-fr" />
+									</Style>
+<Style name="ja-headerwrap" element="p">
+										<Attribute name="class" value="ja-headerwrap" />
+									</Style>
+<Style name="ja-header" element="p">
+										<Attribute name="class" value="ja-header" />
+									</Style>
+<Style name="ja-headermask" element="p">
+										<Attribute name="class" value="ja-headermask" />
+									</Style>
+<Style name="ja-search" element="p">
+										<Attribute name="class" value="ja-search" />
+									</Style>
+<Style name="ja-pathway" element="p">
+										<Attribute name="class" value="ja-pathway" />
+									</Style>
+<Style name="moduletable_menu" element="div">
+										<Attribute name="class" value="moduletable_menu" />
+									</Style>
+<Style name="moduletable_text" element="div">
+										<Attribute name="class" value="moduletable_text" />
+									</Style>
+<Style name="module" element="div">
+										<Attribute name="class" value="module" />
+									</Style>
+<Style name="module_black" element="div">
+										<Attribute name="class" value="module_black" />
+									</Style>
+<Style name="module_green" element="div">
+										<Attribute name="class" value="module_green" />
+									</Style>
+<Style name="module_blue" element="div">
+										<Attribute name="class" value="module_blue" />
+									</Style>
+<Style name="module_red" element="div">
+										<Attribute name="class" value="module_red" />
+									</Style>
+<Style name="module_text" element="div">
+										<Attribute name="class" value="module_text" />
+									</Style>
+<Style name="banneritem_text" element="div">
+										<Attribute name="class" value="banneritem_text" />
+									</Style>
+<Style name="advs" element="div">
+										<Attribute name="class" value="advs" />
+									</Style>
+<Style name="ja-col1" element="p">
+										<Attribute name="class" value="ja-col1" />
+									</Style>
+<Style name="ja-col2" element="p">
+										<Attribute name="class" value="ja-col2" />
+									</Style>
+<Style name="ja-box-full" element="p">
+										<Attribute name="class" value="ja-box-full" />
+									</Style>
+<Style name="ja-box-left" element="p">
+										<Attribute name="class" value="ja-box-left" />
+									</Style>
+<Style name="ja-box-right" element="p">
+										<Attribute name="class" value="ja-box-right" />
+									</Style>
+<Style name="ja-box-center" element="p">
+										<Attribute name="class" value="ja-box-center" />
+									</Style>
+<Style name="ja-botsl" element="p">
+										<Attribute name="class" value="ja-botsl" />
+									</Style>
+<Style name="ja-botslwrap" element="p">
+										<Attribute name="class" value="ja-botslwrap" />
+									</Style>
+<Style name="ja-footerwrap" element="p">
+										<Attribute name="class" value="ja-footerwrap" />
+									</Style>
+<Style name="ja-footer" element="p">
+										<Attribute name="class" value="ja-footer" />
+									</Style>
+<Style name="ja-footnav" element="p">
+										<Attribute name="class" value="ja-footnav" />
+									</Style>
+<Style name="ja-cert" element="p">
+										<Attribute name="class" value="ja-cert" />
+									</Style>
+<Style name="banneritem" element="p">
+										<Attribute name="class" value="banneritem" />
+									</Style>
+<Style name="ja-banner" element="p">
+										<Attribute name="class" value="ja-banner" />
+									</Style>
+<Style name="back_button" element="div">
+										<Attribute name="class" value="back_button" />
+									</Style>
+<Style name="form-login" element="p">
+										<Attribute name="class" value="form-login" />
+									</Style>
+<Style name="clr" element="p">
+										<Attribute name="class" value="clr" />
+									</Style>
+<Style name="hasTip" element="p">
+										<Attribute name="class" value="hasTip" />
+									</Style>
+<Style name="tool-tip" element="p">
+										<Attribute name="class" value="tool-tip" />
+									</Style>
+<Style name="tool-title" element="p">
+										<Attribute name="class" value="tool-title" />
+									</Style>
+<Style name="tool-text" element="p">
+										<Attribute name="class" value="tool-text" />
+									</Style>
+<Style name="system-message" element="p">
+										<Attribute name="class" value="system-message" />
+									</Style>
+<Style name="clearfix:after" element="p">
+										<Attribute name="class" value="clearfix:after" />
+									</Style>
+
+</Styles>

@@ -1,0 +1,41 @@
+apt-get install lua5.1
+
+apt-get install luarocks
+
+luarocks install xavante
+
+luarocks install wsapi-xavante
+
+==========================================================
+
+luarocks list
+
+Installed rocks:
+----------------
+
+copas
+   1.1.6-1 (installed) - /usr/local/lib/luarocks/rocks
+
+coxpcall
+   1.13.0-1 (installed) - /usr/local/lib/luarocks/rocks
+
+luafilesystem
+   1.5.0-1 (installed) - /usr/local/lib/luarocks/rocks
+
+luasocket
+   2.0.2-3 (installed) - /usr/local/lib/luarocks/rocks
+
+rings
+   1.2.3-1 (installed) - /usr/local/lib/luarocks/rocks
+
+wsapi
+   1.3.4-1 (installed) - /usr/local/lib/luarocks/rocks
+
+wsapi-xavante
+   1.3.4-1 (installed) - /usr/local/lib/luarocks/rocks
+
+xavante
+   2.2.0-1 (installed) - /usr/local/lib/luarocks/rocks
+
+==========================================================
+

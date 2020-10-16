@@ -1,0 +1,7 @@
+aptitude install apache2 apache2.2-common apache2-mpm-prefork apache2-utils libexpat1 ssl-cert libapache2-mod-python postgresql python-psycopg2 python-imaging python-markdown python-docutils subversion
+
+aptitude install apache2 apache2.2-common apache2-mpm-prefork apache2-utils libexpat1 ssl-cert libapache2-mod-python python-psycopg2 python-imaging python-markdown python-docutils subversion
+
+aptitude install apache2-mpm-prefork apache2-utils libexpat1 ssl-cert libapache2-mod-python python-psycopg2 python-imaging python-markdown python-docutils
+
+aptitude install apache2 apache2.2-common apache2-mpm-prefork apache2-utils libexpat1 ssl-cert libapache2-mod-python python-psycopg2 python-imaging python-markdown python-docutils subversion

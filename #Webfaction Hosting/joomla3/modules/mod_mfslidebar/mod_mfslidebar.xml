@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>mfSlideBar</name>
+	<version>1.0</version>
+	<creationDate>2008</creationDate>
+	<author>Marcofolio.net</author>
+	<authorEmail>contact@marcofolio.net</authorEmail>
+	<authorUrl>http://www.marcofolio.net/</authorUrl>
+	<copyright>(C) Marcofolio.net</copyright>
+	<license>CC Attribution-Share Alike 3.0 Unported</license>
+	<description>mfSlideBar allows you to add a nice sliding sidebar to your Joomla! website. Read the README.html and don't forget to publish this module!</description>
+    <files>
+		<filename module="mod_mfslidebar">mod_mfslidebar.php</filename>
+		<filename module="mod_mfslidebar">index.html</filename>
+		<filename module="mod_mfslidebar">effects.js</filename>
+		<filename module="mod_mfslidebar">mfslidebar.js</filename>
+		<filename module="mod_mfslidebar">prototype.js</filename>
+		<filename module="mod_mfslidebar">templates/index.html</filename>
+		<filename module="mod_mfslidebar">templates/dark-left/index.html</filename>
+		<filename module="mod_mfslidebar">templates/dark-left/slide-button.gif</filename>
+		<filename module="mod_mfslidebar">templates/dark-left/slide-button-active.gif</filename>
+		<filename module="mod_mfslidebar">templates/dark-right/index.html</filename>
+		<filename module="mod_mfslidebar">templates/dark-right/slide-button.gif</filename>
+		<filename module="mod_mfslidebar">templates/dark-right/slide-button-active.gif</filename>
+		<filename module="mod_mfslidebar">templates/light-left/index.html</filename>
+		<filename module="mod_mfslidebar">templates/light-left/slide-button.gif</filename>
+		<filename module="mod_mfslidebar">templates/light-left/slide-button-active.gif</filename>
+		<filename module="mod_mfslidebar">templates/light-right/index.html</filename>
+		<filename module="mod_mfslidebar">templates/light-right/slide-button.gif</filename>
+		<filename module="mod_mfslidebar">templates/light-right/slide-button-active.gif</filename>
+		<filename module="mod_mfslidebar">templates/simple-left/index.html</filename>
+		<filename module="mod_mfslidebar">templates/simple-left/slide-button.gif</filename>
+		<filename module="mod_mfslidebar">templates/simple-left/slide-button-active.gif</filename>
+		<filename module="mod_mfslidebar">templates/simple-right/index.html</filename>
+		<filename module="mod_mfslidebar">templates/simple-right/slide-button.gif</filename>
+		<filename module="mod_mfslidebar">templates/simple-right/slide-button-active.gif</filename>
+	</files>
+	<params>
+		<param name="loadmodule" type="text" default="user3" label="Load module position" description="Set the module position to load (left, right, user1 etc.). NEVER use the same position as the position from this module." />
+		<param name="pos" type="list" default="left" label="Position" description="On which side should the sidebar be positioned?">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="toppos" type="text" default="140" label="Margin from top" description="Set how many px the sidebar should be loaded from the top." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="theme" type="text" default="dark" label="Load theme" description="Select which theme to load (Defaults are dark, light and simple). Read the description how to use." />
+		<param name="concolor" type="text" default="0E1C2F" label="Color of the box" description="Set the color of the box in HEX value." />
+		<param name="conwidth" type="text" default="200" label="Width of the box" description="Set the width of the box in pixel value." />
+		<param name="conheight" type="text" default="320" label="Height of the box" description="Set the height of the box in pixel value." />
+		<param name="conpadding" type="text" default="10" label="Padding of the text" description="Set the padding of the text in pixel value." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="imgwidth" type="text" default="0" label="Width of the image" description="Set the width of the image in pixel value." />
+		<param name="imgheight" type="text" default="137" label="Height of the image" description="Set the height of the image in pixel value." />
+		<param name="imgalt" type="text" default="mfSlideBar" label="ALT of the image" description="Set the ALT attribute of the image" />
+	</params>
+</install>

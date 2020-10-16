@@ -1,0 +1,24 @@
+check process cherokee with pidfile /var/run/cherokee.pid
+  start program = "/etc/init.d/cherokee start"
+  stop program  = "/etc/init.d/cherokee stop"
+  if cpu > 60% for 2 cycles then alert
+  if cpu > 80% for 5 cycles then restart
+  if totalmem > 50.0 MB for 5 cycles then restart
+  group server
+
+check process cherokee-worker with pidfile /var/run/cherokee.pid.worker
+  start program = "/etc/init.d/cherokee start"
+  stop program  = "/etc/init.d/cherokee stop"
+  if cpu > 60% for 2 cycles then alert
+  if cpu > 80% for 5 cycles then restart
+  if totalmem > 50.0 MB for 5 cycles then restart
+  group server
+
+check process cherokee-admin with pidfile /var/run/cherokee-admin.pid
+   start program "/root/bin/start_cherokee_admin.sh"
+   stop program "/root/bin/stop_cherokee_admin.sh"
+  if cpu > 60% for 2 cycles then alert
+  if cpu > 80% for 5 cycles then restart
+  if totalmem > 20.0 MB for 5 cycles then restart
+  group server
+

@@ -1,0 +1,25 @@
+check device root.disk with path /dev/xvda1
+  if space usage > 80% for 15 times within 20 cycles
+      then exec "/bin/bash -c '/root/svnHotBackups/cleanup-reduce.sh /var/local/svn/#svn_backups/repo1 True > /root/svnHotBackups/logs/svnHotBackups_cleanup.log 2>&1'"
+  if space usage > 95% then alert
+  if inode usage > 95% then alert
+  group server
+
+check device varrun with path /var/run
+  if space usage > 95% for 15 times within 20 cycles then alert
+  if space usage > 95% then alert
+  if inode usage > 95% then alert
+  group server
+
+check device varlock with path /var/lock
+  if space usage > 95% for 15 times within 20 cycles then alert
+  if space usage > 95% then alert
+  if inode usage > 95% then alert
+  group server
+
+check device udev with path /dev
+  if space usage > 95% for 15 times within 20 cycles then alert
+  if space usage > 95% then alert
+  if inode usage > 95% then alert
+  group server
+

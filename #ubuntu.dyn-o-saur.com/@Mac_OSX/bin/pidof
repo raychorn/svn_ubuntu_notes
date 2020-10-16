@@ -1,0 +1,4 @@
+#!/bin/sh
+# chmod +x /bin/pidof
+# see also "killall" command
+ps axc|awk "{if (\$5==\"$1\") print \$1}";

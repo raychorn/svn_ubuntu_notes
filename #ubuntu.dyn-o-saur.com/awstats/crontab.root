@@ -1,0 +1,13 @@
+# Global variables
+SHELL=/bin/bash
+PATH=/home/raychorn/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+MAILTO=support@vyperlogix.com
+HOME=/home/raychorn/
+
+0-59/5 * * * * /home/raychorn/bin/boost.sh >> /home/raychorn/boost.log
+
+0-59/15 * * * * /usr/lib/cgi-bin/awstats.pl -config=www.vyperlogix.com -update >> /home/raychorn/awstats-vyperlogix.log
+
+0-59/15 * * * * /usr/lib/cgi-bin/awstats.pl -config=www.pyeggs.com -update >> /home/raychorn/awstats-pyeggs.log
+
+0 0 * * * /etc/init.d/apache2 restart >> /home/raychorn/apache2_restart.log

@@ -1,0 +1,10 @@
+/home/raychorn/logs/*.log {
+  rotate 120
+  daily
+  compress
+  copytruncate
+  missingok
+  notifempty
+  copytruncate
+  mail raychorn@hotmail.com
+}

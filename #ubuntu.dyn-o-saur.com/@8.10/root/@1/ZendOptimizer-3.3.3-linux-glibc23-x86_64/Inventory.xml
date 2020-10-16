@@ -1,0 +1,572 @@
+<Package version="3.3.3RC0" name="optimizer" os="linux-glibc23-x86_64">
+	<Component version="1.0_20060221" name="apollo-dialog">
+			<Component version="5.4" name="apollo-ncurses">
+					<Source version="5.4" name="ncurses"/>
+					
+					<Build time="Mon Nov 26 11:04:55 2007" machine="amd64"/>
+			</Component>
+			<Source version="1.0_20060221" name="dialog"/>
+			<Source version="1.0_20060221" name="dialog_space_complete"/>
+			
+			<Build time="Mon Nov 26 14:39:06 2007" machine="platform-build-64"/>
+	</Component>
+	<Component version="EXTENSION_MANAGER_1_2_2_RC3_20071111" name="extension-manager">
+			<Component version="4.2.3" name="zend4">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendExtensionManager" />
+			<Module name="ZendStdExtLib" />
+			
+			<Build time="Sun Nov 11 16:22:45 2007" machine="platform-build-64"/>
+	</Component>
+	<Component version="EXTENSION_MANAGER_1_2_2_RC3_20071111" name="extension-manager-ts">
+			<Component version="4.3.1" name="zend4-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendExtensionManager" />
+			<Module name="ZendStdExtLib" />
+			
+			<Build time="Mon Jan 14 21:16:33 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.2.0" name="zend4">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:17:11 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.2.1" name="zend4">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:17:51 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.3.9" name="zend4">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Tue Jan  8 14:03:12 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.4.0" name="zend4">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Tue Jan  8 14:04:22 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="5.0.4" name="zend5">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="ZendEngine2" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Thu Jan 10 11:47:44 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="5.1.6" name="zend5">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="ZendEngine2" />
+					<Module name="php-src/main" />
+					
+					<Build time="Wed Feb 14 16:44:58 2007" machine="amd64"/>
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:18:36 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="5.2.5" name="zend5">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+							<Build time="Sun Nov 18 11:48:49 2007" machine="amd64"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+							<Build time="Sun Nov 18 11:51:17 2007" machine="amd64"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+							<Build time="Sun Nov 18 11:53:47 2007" machine="amd64"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="ZendEngine2" />
+					<Module name="php-src/main" />
+					
+					<Build time="Mon Dec 31 17:22:29 2007" machine="alex-deb"/>
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Tue Jan  8 14:06:28 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_DOCS_3_3_0_RC2_20070918" name="optimizer-doc">
+			<Module name="intra/user_docs/ZendOptimizer" />
+			
+			<Build time="Mon Jan  7 16:45:31 2008" machine="santa-ws2003"/>
+	</Component>
+	<Component version="OPTIMIZER_INSTALL_3_0_1_RC1_20060507" name="optimizer-install">
+			<Module name="phplib" />
+			<Module name="unix_installer" />
+			
+			<Build time="Thu Feb 15 18:48:17 2007" machine="packsys-rhel3.zend.office"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer-ts">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.2.1" name="zend4-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="patches" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:20:24 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer-ts">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.3.9" name="zend4-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:21:06 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer-ts">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="4.4.0" name="zend4-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:21:47 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer-ts">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="5.0.4" name="zend5-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="ZendEngine2" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:22:31 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer-ts">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="5.1.6" name="zend5-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="ZendEngine2" />
+					<Module name="php-src/main" />
+					
+					<Build time="Wed Feb 14 17:28:58 2007" machine="amd64"/>
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:23:16 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="OPTIMIZER_3_3_3_RC3_20080108" name="optimizer-ts">
+			<Component version="0.9.7d" name="openssl">
+					<Source version="0.9.7d" name="openssl"/>
+					
+					<Build time="Sun Jan 28 09:42:04 2007" machine="amd64"/>
+			</Component>
+			<Component version="5.2.5" name="zend5-ts">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+							<Build time="Sun Nov 18 11:48:49 2007" machine="amd64"/>
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+							<Build time="Sun Nov 18 11:51:17 2007" machine="amd64"/>
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+							<Build time="Sun Nov 18 11:53:47 2007" machine="amd64"/>
+					</Component>
+					<Module name="TSRM" />
+					<Module name="ZendEngine2" />
+					<Module name="php-src/main" />
+					
+					<Build time="Mon Jan 14 21:23:53 2008" machine="platform-build-64"/>
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			<Module name="patches" />
+			<Module name="zlib" />
+			
+			<Build time="Mon Jan 14 21:24:30 2008" machine="platform-build-64"/>
+	</Component>
+	<Component version="4.3.11" name="php4-for-install">
+			<Component version="2.53" name="autoconf">
+				<Source version="2.53" name="autoconf"/>
+			</Component>
+			<Component version="1.5" name="automake">
+				<Source version="1.5" name="automake"/>
+			</Component>
+			<Component version="7.12.2" name="curl">
+				<Component version="2.53" name="autoconf">
+					<Source version="2.53" name="autoconf"/>
+				</Component>
+				<Component version="1.5" name="automake">
+					<Source version="1.5" name="automake"/>
+				</Component>
+				<Component version="1.4.3" name="libtool">
+					<Source version="1.4.3" name="libtool"/>
+				</Component>
+				<Component version="0.9.7e" name="openssl">
+					<Source version="0.9.7e" name="openssl"/>
+				</Component>
+				<Source version="7.12.2" name="curl"/>
+			</Component>
+			<Component version="1.4.3" name="libtool">
+				<Source version="1.4.3" name="libtool"/>
+			</Component>
+			<Component version="5.4" name="ncurses">
+				<Component version="1.4.3" name="libtool">
+					<Source version="1.4.3" name="libtool"/>
+				</Component>
+				<Source version="5.4" name="ncurses"/>
+			</Component>
+			<Component version="0.51.6" name="newt">
+				<Component version="2.53" name="autoconf">
+					<Source version="2.53" name="autoconf"/>
+				</Component>
+				<Component version="1.5" name="automake">
+					<Source version="1.5" name="automake"/>
+				</Component>
+				<Component version="1.4.3" name="libtool">
+					<Source version="1.4.3" name="libtool"/>
+				</Component>
+				<Component version="5.4" name="ncurses">
+					<Component version="1.4.3" name="libtool">
+						<Source version="1.4.3" name="libtool"/>
+					</Component>
+					<Source version="5.4" name="ncurses"/>
+				</Component>
+				<Component version="1.4.7" name="slang">
+					<Source version="1.4.7" name="slang"/>
+				</Component>
+				<Source version="0.51.6" name="newt"/>
+			</Component>
+			<Component version="0.9.7e" name="openssl">
+				<Source version="0.9.7e" name="openssl"/>
+			</Component>
+			<Component version="1.4.7" name="slang">
+				<Source version="1.4.7" name="slang"/>
+			</Component>
+			<Component version="1.2.1" name="zlib">
+				<Source version="1.2.1" name="zlib"/>
+			</Component>
+			<Module name="pecl/newt"/>
+			<Module name="pecl/sqlite"/>
+			<Source version="4.3.11" name="php"/>
+	</Component>
+	<Component version="OPTIMIZER_3_2_2_RC5_20061225" name="zendid">
+			<Component version="0.9.8" name="openssl">
+					<Source version="0.9.8" name="openssl"/>
+					
+			</Component>
+			<Component version="4.2.3" name="zend4">
+					<Component version="2.53" name="autoconf">
+							<Source version="2.53" name="autoconf"/>
+							
+					</Component>
+					<Component version="1.5" name="automake">
+							<Source version="1.5" name="automake"/>
+							
+					</Component>
+					<Component version="1.4.3" name="libtool">
+							<Source version="1.4.3" name="libtool"/>
+							
+					</Component>
+					<Module name="TSRM" />
+					<Module name="Zend" />
+					<Module name="php-src/main" />
+					
+			</Component>
+			<Module name="ZendEncoder" />
+			<Module name="ZendLicenseManager" />
+			<Module name="ZendStdExtLib" />
+			
+			<Build time="Tue Dec 26 13:29:17 2006" machine="amd64"/>
+	</Component>
+</Package>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="plugin" group="content">
+  <name>The Ultimate Social Bookmarking Plugin</name>
+  <author>Patrick Swesey</author>
+  <creationDate>2/9/08</creationDate>
+  <copyright>(C)2008 JoomlaDigger.com. All rights reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>webmaster@joomladigger.com</authorEmail>
+  <authorUrl>http://joomladigger.com</authorUrl>
+  <version>1.0.2</version>
+  <description>
+    <![CDATA[<h2>Add any set of Social Bookmarking buttons to your website to raise your PageRank and bring more traffic.</h2>
+      <strong>Homepage Display</strong>
+      <p>This option allows you to choose how your Social Bookmarking buttons will appear on the homepage and any content listing pages for blogs, sections, categories, etc. Basically what you want to be displayed on any page that lists content items with a "Read more..." link to the full article.</p>
+      <p><strong>Top:</strong> Only display the top group of buttons.</p>
+      <p><strong>Bottom:</strong> Only display the bottom group of buttons.</p>
+      <p><strong>Both:</strong> Display all buttons.</p>
+      <p><strong>None:</strong> Display nothing (only display buttons when the full content item is listed).</p>
+      <strong>URL Mode</strong>
+      <p>This option allows you to choose which type of URLs to be generated.</p>
+      <p><strong>Standard:</strong> Generate full URLs based on your menu structure (the default way Joomla! applications generate URLs). This will create different URLs based on how a user navigated to the content item.</p>
+      <p><strong>Current URL:</strong> If you don't use Search Engine Friendly (SEF) URLs then you must use this option. This will also not allow you to display any buttons on the homepage or content listing pages. If you use language packs or other components that change your site's URL structure and you don't have a Search Engine Friendly (SEF) component installed then you will probably need to use this option.</p>
+      <strong>Categories to Exclude</strong>
+      <p>This option allows you to specify categories that won't display the buttons. Separate category ids with a comma, ex:  2,5,12,17. Add 0 to exclude uncategorized content items.</p>
+      <strong>Preceding HTML</strong>
+      <p>If you want any kind of descriptive text or HTML above the bottom Social Bookmarking buttons, place it here.</p>
+      <strong>Top Button Separator</strong>
+      <p>Enter the text or HTML that you want to separate each item in the top button group here. Linebreaks are provided by default, but you can change this to anything you want.</p>
+      <strong>Bottom Button Separator</strong>
+      <p>Enter the text or HTML that you want to separate each item in the buttom button group here. A space is provided by default, but you can change this to anything you want.</p>
+      <strong>Image Folder</strong>
+      <p>All button images are stored in folders under plugins/content/usbp_images/. Included are the folders glossy, glossy-top and default. If you want to create your own image set, create a new folder on your server under /JoomlaDirectory/mambots/content/usbp_images/ and place your image set into it. A photoshop template for the glossy buttons can be found in the plugin zip file.</p>
+      <strong>Background Color</strong>
+      <p>The CSS color property for the background of dynamic buttons like the large Digg badge. Set this to the background color of your website. Use a proper CSS color like #ffffff, #000000, White, Blue, Red, etc.</p>
+      <strong>AddThis.com Username</strong>
+      <p>If you want to enable one of the AddThis.com buttons you will need to register at their website first. Get your username, or PubId, and enter it here.</p>
+      <strong>Check For Manual Settings</strong>
+      <p>This is set to "No" by default becuase it will require a little more processing time. Set this to "Yes" if you want to manually change the submitted title or URL for any content items.</p>
+      <p>Here is how you can manually change the submitted URL or title of a content item:</p>
+      <p>Add this tag to the INTRO CONTENT of a content item:
+      <br/>{socialbookmarker}sburl="http://www.yourwebsite.com/url.htm" sbtitle="The title you want submitted to the Social Bookmarking websites" sbdescription="Description of this content."{/socialbookmarker}</p>
+      <p>There are 4 properties you can specify:
+      <br/><strong>sburl:</strong> The URL you want submitted for this content item.
+      <br/><strong>sbtitle:</strong> The title you want submitted for this content item.
+      <br/><strong>sbdescription:</strong> The description you want submitted for this content item.
+      <br/><strong>sbenabled:</strong> This is used to disable the buttons from being displayed on this particular content item. This is useful if you want the buttons displayed on all content items except for a few Set this to "false" to disable the buttons.
+      </p>
+      <br/><br/>
+      <strong>Managing your buttons through the XML file</strong>
+      <p>You can edit the Social Bookmarking buttons you want displayed on your website by editing the XML file on your server at /JoomlaDirectory/mambots/content/ultimate_social_bookmarking_plugin_buttons.xml.</p>
+      <p>Here is the XML format:</p>
+      <pre>
+      &lt;buttons&gt;
+      &lt;button&gt;
+      &lt;website&gt;Website Button Name&lt;/website&gt;
+      &lt;html&gt;The HTML with UltimateSocialBookmarkingPlugin keywords&lt;/html&gt;
+      &lt;enabled&gt;true or false&lt;/enabled&gt;
+      &lt;position&gt;top or bottom&lt;/position&gt;
+      &lt;/button&gt;
+      &lt;/buttons&gt;
+      </pre>
+      <p><strong>website:</strong> Name of the Website and Button</p>
+      <p><strong>html:</strong> The HTML that will create this button. This can be any combination of text, HTML and JavaScript. Make sure you use CDATA escaping so the buttons are properly displayed.</p>
+      <p><strong>enabled:</strong> Set to "true" or "false". Determines whether the button is displayed or not.</p>
+      <p><strong>position:</strong> Set to "top" or "bottom". Determines whether the button is placed in the top or bottom button groups.</p>
+      <br/><p><strong>UltimateSocialBookmarkingPlugin Keywords</strong></p>
+      <p>You can add the following keywords to the html of each button. They will be dynamically replaced with the correct data for each content item:</p>
+      <p><strong>***url***</strong> - The URL of the current content item.</p>
+      <p><strong>***url_encoded***</strong> - The uri_encoded URL of the current content item. Encoded URLs are required by some sites like Digg.com</p>
+      <p><strong>***title***</strong> - The title of the current content item.</p>
+      <p><strong>***title_encoded***</strong> - The uri_encoded title of the current content item.</p>
+      <p><strong>***description***</strong> - The description of the current content item.</p>
+      <p><strong>***description_encoded***</strong> - The encoded description of the current content item.</p>
+      <p><strong>***imageDirectory***</strong> - The full URL of your image directory.</p>
+      <p><strong>***bgcolor***</strong> - The background color specified in the plugin parameters.</p>
+      <p><strong>***addThisPubId***</strong> - The AddThisPubId specified in the plugin parameters.</p>
+      <strong>Changing the styling of the Social Bookmarking buttons</strong>
+      <p>The Ultimate Social Bookmarking Plugin is styled completely through CSS. To change the styling, edit the CSS file on your server at /JoomlaDirectory/mambots/content/ultimate_social_bookmarking_plugin.css.</p>]]>
+  </description>
+  <files>
+    <filename plugin="ultimate_social_bookmarking_plugin">ultimate_social_bookmarking_plugin.php</filename>
+    <filename>ultimate_social_bookmarking_plugin.xml</filename>
+    <filename>ultimate_social_bookmarking_plugin.css</filename>
+    <filename>ultimate_social_bookmarking_plugin_buttons.xml</filename>
+    <filename>usbp_images/default/ask.png</filename>
+    <filename>usbp_images/default/blinkbits.png</filename>
+    <filename>usbp_images/default/blinklist.png</filename>
+    <filename>usbp_images/default/blogmarks.png</filename>
+    <filename>usbp_images/default/blogmemes.png</filename>
+    <filename>usbp_images/default/blogrolling.png</filename>
+    <filename>usbp_images/default/cannotea.png</filename>
+    <filename>usbp_images/default/delicious.png</filename>
+    <filename>usbp_images/default/digg.png</filename>
+    <filename>usbp_images/default/diigo.png</filename>
+    <filename>usbp_images/default/dzone.png</filename>
+    <filename>usbp_images/default/facebook.png</filename>
+    <filename>usbp_images/default/fark.png</filename>
+    <filename>usbp_images/default/faves.png</filename>
+    <filename>usbp_images/default/feedmelinks.png</filename>
+    <filename>usbp_images/default/furl.png</filename>
+    <filename>usbp_images/default/google.png</filename>
+    <filename>usbp_images/default/joomladigger.png</filename>
+	<filename>usbp_images/default/joomlavote.png</filename>
+    <filename>usbp_images/default/linkagogo.png</filename>
+    <filename>usbp_images/default/live.png</filename>
+    <filename>usbp_images/default/magnolia.png</filename>
+    <filename>usbp_images/default/maple.png</filename>
+    <filename>usbp_images/default/mister-wong.png</filename>
+    <filename>usbp_images/default/mylinkvault.png</filename>
+	<filename>usbp_images/default/myspace.png</filename>
+    <filename>usbp_images/default/netscape.png</filename>
+    <filename>usbp_images/default/netvouz.png</filename>
+    <filename>usbp_images/default/newsvine.png</filename>
+    <filename>usbp_images/default/plugim.png</filename>
+    <filename>usbp_images/default/rawsugar.png</filename>
+    <filename>usbp_images/default/reddit.png</filename>
+    <filename>usbp_images/default/shoutwire.png</filename>
+    <filename>usbp_images/default/simpy.png</filename>
+    <filename>usbp_images/default/slashdot.png</filename>
+    <filename>usbp_images/default/smarking.png</filename>
+    <filename>usbp_images/default/spurl.png</filename>
+    <filename>usbp_images/default/squidoo.png</filename>
+    <filename>usbp_images/default/stumbleupon.png</filename>
+    <filename>usbp_images/default/swik.png</filename>
+    <filename>usbp_images/default/tailrank.png</filename>
+    <filename>usbp_images/default/technorati.png</filename>
+    <filename>usbp_images/default/wists.png</filename>
+    <filename>usbp_images/default/yahoo.png</filename>
+	<filename>usbp_images/glossy/ask.png</filename>
+    <filename>usbp_images/glossy/blinkbits.png</filename>
+    <filename>usbp_images/glossy/blinklist.png</filename>
+    <filename>usbp_images/glossy/blogmarks.png</filename>
+    <filename>usbp_images/glossy/blogmemes.png</filename>
+    <filename>usbp_images/glossy/blogrolling.png</filename>
+    <filename>usbp_images/glossy/cannotea.png</filename>
+    <filename>usbp_images/glossy/delicious.png</filename>
+    <filename>usbp_images/glossy/digg.png</filename>
+    <filename>usbp_images/glossy/diigo.png</filename>
+    <filename>usbp_images/glossy/dzone.png</filename>
+    <filename>usbp_images/glossy/facebook.png</filename>
+    <filename>usbp_images/glossy/fark.png</filename>
+    <filename>usbp_images/glossy/faves.png</filename>
+    <filename>usbp_images/glossy/feedmelinks.png</filename>
+    <filename>usbp_images/glossy/furl.png</filename>
+    <filename>usbp_images/glossy/google.png</filename>
+    <filename>usbp_images/glossy/joomladigger.png</filename>
+	<filename>usbp_images/glossy/joomlavote.png</filename>
+    <filename>usbp_images/glossy/linkagogo.png</filename>
+    <filename>usbp_images/glossy/live.png</filename>
+    <filename>usbp_images/glossy/magnolia.png</filename>
+    <filename>usbp_images/glossy/maple.png</filename>
+    <filename>usbp_images/glossy/mister-wong.png</filename>
+    <filename>usbp_images/glossy/mylinkvault.png</filename>
+	<filename>usbp_images/glossy/myspace.png</filename>
+    <filename>usbp_images/glossy/netscape.png</filename>
+    <filename>usbp_images/glossy/netvouz.png</filename>
+    <filename>usbp_images/glossy/newsvine.png</filename>
+    <filename>usbp_images/glossy/plugim.png</filename>
+    <filename>usbp_images/glossy/rawsugar.png</filename>
+    <filename>usbp_images/glossy/reddit.png</filename>
+    <filename>usbp_images/glossy/shoutwire.png</filename>
+    <filename>usbp_images/glossy/simpy.png</filename>
+    <filename>usbp_images/glossy/slashdot.png</filename>
+    <filename>usbp_images/glossy/smarking.png</filename>
+    <filename>usbp_images/glossy/spurl.png</filename>
+    <filename>usbp_images/glossy/squidoo.png</filename>
+    <filename>usbp_images/glossy/stumbleupon.png</filename>
+    <filename>usbp_images/glossy/swik.png</filename>
+    <filename>usbp_images/glossy/tailrank.png</filename>
+    <filename>usbp_images/glossy/technorati.png</filename>
+    <filename>usbp_images/glossy/wists.png</filename>
+    <filename>usbp_images/glossy/yahoo.png</filename>
+	<filename>usbp_images/glossy-top/ask.png</filename>
+    <filename>usbp_images/glossy-top/blinkbits.png</filename>
+    <filename>usbp_images/glossy-top/blinklist.png</filename>
+    <filename>usbp_images/glossy-top/blogmarks.png</filename>
+    <filename>usbp_images/glossy-top/blogmemes.png</filename>
+    <filename>usbp_images/glossy-top/blogrolling.png</filename>
+    <filename>usbp_images/glossy-top/cannotea.png</filename>
+    <filename>usbp_images/glossy-top/delicious.png</filename>
+    <filename>usbp_images/glossy-top/digg.png</filename>
+    <filename>usbp_images/glossy-top/diigo.png</filename>
+    <filename>usbp_images/glossy-top/dzone.png</filename>
+    <filename>usbp_images/glossy-top/facebook.png</filename>
+    <filename>usbp_images/glossy-top/fark.png</filename>
+    <filename>usbp_images/glossy-top/faves.png</filename>
+    <filename>usbp_images/glossy-top/feedmelinks.png</filename>
+    <filename>usbp_images/glossy-top/furl.png</filename>
+    <filename>usbp_images/glossy-top/google.png</filename>
+    <filename>usbp_images/glossy-top/joomladigger.png</filename>
+	<filename>usbp_images/glossy-top/joomlavote.png</filename>
+    <filename>usbp_images/glossy-top/linkagogo.png</filename>
+    <filename>usbp_images/glossy-top/live.png</filename>
+    <filename>usbp_images/glossy-top/magnolia.png</filename>
+    <filename>usbp_images/glossy-top/maple.png</filename>
+    <filename>usbp_images/glossy-top/mister-wong.png</filename>
+    <filename>usbp_images/glossy-top/mylinkvault.png</filename>
+	<filename>usbp_images/glossy-top/myspace.png</filename>
+    <filename>usbp_images/glossy-top/netscape.png</filename>
+    <filename>usbp_images/glossy-top/netvouz.png</filename>
+    <filename>usbp_images/glossy-top/newsvine.png</filename>
+    <filename>usbp_images/glossy-top/plugim.png</filename>
+    <filename>usbp_images/glossy-top/rawsugar.png</filename>
+    <filename>usbp_images/glossy-top/reddit.png</filename>
+    <filename>usbp_images/glossy-top/shoutwire.png</filename>
+    <filename>usbp_images/glossy-top/simpy.png</filename>
+    <filename>usbp_images/glossy-top/slashdot.png</filename>
+    <filename>usbp_images/glossy-top/smarking.png</filename>
+    <filename>usbp_images/glossy-top/spurl.png</filename>
+    <filename>usbp_images/glossy-top/squidoo.png</filename>
+    <filename>usbp_images/glossy-top/stumbleupon.png</filename>
+    <filename>usbp_images/glossy-top/swik.png</filename>
+    <filename>usbp_images/glossy-top/tailrank.png</filename>
+    <filename>usbp_images/glossy-top/technorati.png</filename>
+    <filename>usbp_images/glossy-top/wists.png</filename>
+    <filename>usbp_images/glossy-top/yahoo.png</filename>
+  </files>
+  <params>
+    <param name="homepageListing" type="list" default="top" label="Homepage Display" description="Specifies which groups of buttons to display on the homepage and content listing (blog) pages.">
+      <option value="top">Top</option>
+      <option value="bottom">Bottom</option>
+      <option value="both">Both</option>
+      <option value="none">None</option>
+    </param>
+    <param name="urlMode" type="list" default="standard" label="URL Mode" description="Specifies the type of URLs to submit to the Social Bookmarking websites. Select Standard to generate regular URLs. Select Current URL if this website uses a non-standard URL structure that this plugin cannot properly replicate (this will disable any buttons from being displayed on the Homepage or Content Listing pages.">
+      <option value="standard">Standard</option>
+      <option value="currentUrl">Current URL</option>
+    </param>
+    <param name="excludeCategories" type="text" default="" label="Categories to Exclude" description="Comma-separated list of category IDs to exclude."/>
+    <param name="topPrecedingHtml" type="text" default=" " label="Top Preceding HTML" description="HTML to be displayed before the top group of buttons."/>
+    <param name="topFollowingHtml" type="text" default=" " label="Top Following HTML" description="HTML to be displayed after the top group of buttons."/>
+    <param name="bottomPrecedingHtml" type="text" default="&lt;br/&gt;&lt;hr/&gt;Add this page to your favorite Social Bookmarking websites&lt;br/&gt;" label="Bottom Preceding HTML" description="HTML to be displayed before the bottom group of buttons."/>
+    <param name="bottomFollowingHtml" type="text" default=" " label="Bottom following HTML" description="HTML to be after before the bottom group of buttons."/>
+    <param name="topSeparator" type="text" default="&lt;br/&gt;" label="Top Button Separator" description="The HTML you want placed between each button in the top group of buttons."/>
+    <param name="bottomSeparator" type="text" default=" " label="Boottom Button Separator" description="The HTML you want placed between each button in the bottom group of buttons."/>
+    <param name="imageFolder" type="text" default="glossy" label="Image Folder" description="This specifies which folder of button images you want to use. The only folder included is default, you will have to create new folders of button images to specify a different value."/>
+    <param name="bgColor" type="text" default="#ffffff" label="Background Color" description="This is used for the background color for JavaScript badges like the big Digg.com button. Specify a valid CSS color property, i.e. White or #000000"/>
+    <param name="addThisPubId" type="text" default=" " label="AddThis.com Username" description="Create an account at AddThis.com then enter your username (Publisher ID) before enabling any AddThis.com buttons."/>
+    <param name="lookForManualSettings" type="list" default="no" label="Check For Manual Settings" description="Only set this to YES if you are manually adding Ultimate Social Bookmarking Plugin tags to your content items as this will require more processing. See JoomlaDigger.com for more information.">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </param>
+  </params>
+</install>

@@ -1,0 +1,2 @@
+deb http://ppa.launchpad.net/cherokee-webserver/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/cherokee-webserver/ppa/ubuntu jaunty main

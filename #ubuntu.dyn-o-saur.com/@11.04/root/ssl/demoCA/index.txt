@@ -1,0 +1,7 @@
+V	120405025644Z		C25B5A3A7DC4B6DB	unknown	/C=US/ST=California/O=Vyper Logix Corp./CN=www.vyperlogix.com/emailAddress=support@vyperlogix.com
+V	100406163416Z		C25B5A3A7DC4B6DC	unknown	/C=US/ST=California/L=San Francisco/O=Vyper Logix Corp./CN=www.pyeggs.com/emailAddress=support@vyperlogix.com
+V	100406170036Z		C25B5A3A7DC4B6DD	unknown	/C=US/ST=California/L=San Francisco/O=Vyper Logix Corp./CN=stats.vyperlogix.com/emailAddress=support@vyperlogix.com
+V	100406171034Z		C25B5A3A7DC4B6DE	unknown	/C=US/ST=California/L=San Francisco/O=Vyper Logix Corp./CN=stats.pyeggs.com/emailAddress=support@vyperlogix.com
+V	100406171534Z		C25B5A3A7DC4B6DF	unknown	/C=US/ST=California/L=San Francisco/O=Vyper Logix Corp./CN=stats.pypi.info/emailAddress=support@vyperlogix.com
+V	100408154959Z		C25B5A3A7DC4B6E0	unknown	/C=US/ST=California/L=San Francisco/O=Vyper Logix Corp./OU=Sales and Marketing/CN=www.vyperlogix.com/emailAddress=support@vuperlogix.com
+V	100409204535Z		C25B5A3A7DC4B6E1	unknown	/C=US/ST=California/L=San Francisco/O=Vyper Logix Corp./OU=Web Development/CN=127.0.0.1/emailAddress=support@vyperlogix.com

@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: Django
+Version: 0.96.3
+Summary: Django 0.96.3 Distro
+Home-page: http://www.djangoproject.com/download/
+Author: www.djangoproject.com
+Author-email: UNKNOWN
+License: BSD license (http://code.djangoproject.com/file/django/trunk/LICENSE)
+Download-URL: http://www.djangoproject.com/download/
+Description: 
+        Django 0.96.3.
+        See also: http://www.djangoproject.com/download/
+        
+Platform: Posix; Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GPL (Restricted to Non-Commercial Educational Use Only).
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet

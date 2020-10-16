@@ -1,0 +1,24 @@
+check device root.disk with path /dev/sda1
+  if space usage > 80% for 5 times within 15 cycles then alert
+  if space usage > 90% then alert
+  if inode usage > 90% then alert
+  group server
+
+check device varrun with path /var/run
+  if space usage > 80% for 5 times within 15 cycles then alert
+  if space usage > 90% then alert
+  if inode usage > 90% then alert
+  group server
+
+check device varlock with path /var/lock
+  if space usage > 80% for 5 times within 15 cycles then alert
+  if space usage > 90% then alert
+  if inode usage > 90% then alert
+  group server
+
+check device dev with path /dev
+  if space usage > 80% for 5 times within 15 cycles then alert
+  if space usage > 90% then alert
+  if inode usage > 90% then alert
+  group server
+

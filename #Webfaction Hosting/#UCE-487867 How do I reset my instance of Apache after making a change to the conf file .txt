@@ -1,0 +1,36 @@
+From:	WebFaction Support [support@webfaction.com]
+Sent:	Monday, November 05, 2007 5:59 AM
+To:	raychorn@hotmail.com
+Subject:	[#UCE-487867]: How do I reset my instance of Apache after making a change 
+to the conf file ?
+
+Hello,
+
+> How do I reset my instance of Apache after making a change to the conf file 
+?
+
+All you've to do is connect to your account using an SSH client and execute:
+
+cd ~/webapps/mod_python/apache2/bin/
+./restart
+
+Hope it helps. :)
+
+Regards,
+
+-David Sissitka
+
+Ticket Details
+===================
+Ticket ID: UCE-487867
+Department: Support
+Priority: Medium
+Status: On hold
+
+You can check the status of or reply to this Ticket online at: 
+https://help.webfaction.com/index.php?_m=tickets&_a=viewticket&ticketid=28304
+Please do let us know if we can assist you any further,
+
+WebFaction
+
+

@@ -1,0 +1,1 @@
+netstat -a | egrep 'Proto|LISTEN'

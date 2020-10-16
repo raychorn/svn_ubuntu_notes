@@ -1,0 +1,31 @@
+## Main Repos
+deb http://archive.ubuntu.com/ubuntu/ jaunty main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jaunty-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jaunty-security main restricted universe multiverse
+
+## Source Repos
+# deb-src http://archive.ubuntu.com/ubuntu/ jaunty restricted main multiverse universe
+# deb-src http://archive.ubuntu.com/ubuntu/ jaunty-updates restricted main multiverse universe
+# deb-src http://archive.ubuntu.com/ubuntu/ jaunty-security restricted main multiverse universe
+
+## Outro
+deb http://archive.canonical.com/ubuntu jaunty partner #Partner
+deb http://deb.opera.com/opera/ lenny non-free #Opera
+deb http://dl.google.com/linux/deb/ stable non-free #Google
+deb http://packages.medibuntu.org/ jaunty free non-free #Medibuntu
+deb http://wine.budgetdedicated.com/apt jaunty main #Wine
+
+## PPAs
+deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu jaunty main #Chromimum-Daily
+deb http://ppa.launchpad.net/globalmenu-team/ppa/ubuntu jaunty main #GlobalMenu-Team
+deb http://ppa.launchpad.net/rvm/ppa/ubuntu jaunty main #(S)Mplayer
+deb http://ppa.launchpad.net/samrog131/ppa/ubuntu jaunty main #Samrog131 (Small KDE Stuff)
+deb http://ppa.launchpad.net/tobydox/ppa/ubuntu jaunty main #TobyDox (LMMS/MingX)
+deb http://ppa.launchpad.net/tonio/ppa/ubuntu jaunty main #Tonio (Cool KDE Stuff)
+deb http://ppa.launchpad.net/ubuntustudio-dev/ppa/ubuntu jaunty main #UbuntuStudio.Devel
+deb http://ppa.launchpad.net/tualatrix/ubuntu jaunty main #Tulatrix (Ubuntu-Tweak)
+
+deb http://ppa.launchpad.net/cherokee-webserver/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/cherokee-webserver/ppa/ubuntu jaunty main
+
+deb http://repos.zend.com/deb/ce ce non-free

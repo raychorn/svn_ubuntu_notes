@@ -1,0 +1,9 @@
+check process cherokee-admin with pidfile /var/run/cherokee-admin.pid
+  start program = "/root/cherokee/start_cherokee-admin.sh"
+  stop program = "/root/cherokee/stop_cherokee-admin.sh"
+  if cpu > 60% for 5 times within 15 cycles then alert
+  if cpu > 80% for 10 times within 15 cycles then restart
+  #if failed host 127.0.0.1 port 9090 protocol HTTP request "/" then restart
+  if totalmem > 70.0 MB for 10 times within 15 cycles then restart
+  group server
+

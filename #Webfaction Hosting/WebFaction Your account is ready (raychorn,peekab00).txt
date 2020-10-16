@@ -1,0 +1,55 @@
+From: support@webfaction.com
+Sent: Wednesday, October 31, 2007 11:52 AM
+To: raychorn@hotmail.com; raychorn@sbcglobal.net
+Subject: WebFaction: Your account is ready
+
+Hello Ray,
+
+I am pleased to inform you that your WebFaction account is ready !
+
+You can access the welcome note (containing all the details for your new account) by going to the following URL:
+
+https://panel.webfaction.com/message/read/4894
+
+Your login/password are: raychorn/810c28a5
+
+
+****** AFFILIATE PROGRAM ******
+* We have a very easy to use affiliate program.
+* All you have to do is display the following link
+* on your website:
+*   http://www.webfaction.com/?affiliate=raychorn
+* If people click on that link and signup for an account
+* with us you will get 10% of everything they ever pay us !
+* The money can be credited on your account with us or sent
+* to your PayPal account if you have one.
+* Details of our affiliate program are available from
+*    http://www.webfaction.com/affiliate_program
+* Whether you choose to use your affiliate link or not,
+* feel free to display one of our "Hosted by WebFaction"
+* buttons (http://www.webfaction.com/visuals)
+
+
+****** MISCELLANEOUS ******
+* Feel free to introduce your site to the rest of the
+* WebFaction community. We have a special forum for that:
+* http://forum.webfaction.com/viewforum.php?id=25
+*
+* If you have any ideas or suggestion to improve
+* WebFaction we'd love to hear them. Again, we have a
+* special forum for that:
+* http://forum.webfaction.com/viewforum.php?id=26
+
+
+Enjoy and let us know if you have any questions (please use the ticketing system in our control panel to communicate with us).
+
+Remi.
+
+WebFaction team
+
+
+SVN ... https://svn.ez-ajax.com/
+
+apache+mod_python ... http://www.ez-ajax.com and http://ez-ajax.com and http://raychorn.webfactional.com
+
+FTP ... web22.webfaction.com uid=raychorn, pwd=peekab00

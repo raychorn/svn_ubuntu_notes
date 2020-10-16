@@ -1,0 +1,19 @@
+Re: SIOCSIFADDR: No such device eth0 After Dappr Upgrade
+I got the exact same problem with Debian. Maybe somebody will find this helpful:
+
+The problem started after I cloned a virtualbox os, and gave the box a new mac.
+
+There is no /etc/iftab file anywhere, so I looked for all files in /etc containing the old mac with a "rgrep -i 08:00 *"
+
+The only file that contained the mac was: /etc/udev/rules.d/z25_persistent-net.rules
+
+Problem resolved after deleting the file, and rebooting.
+
+==================================================================
+
+jaunty 9.04
+
+nano /etc/network/interfaces ; make all the eth's auto !
+
+Then rm 70-persistent-net.rules
+

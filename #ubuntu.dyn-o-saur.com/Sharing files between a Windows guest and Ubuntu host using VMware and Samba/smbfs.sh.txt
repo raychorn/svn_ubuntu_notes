@@ -1,0 +1,2 @@
+mkdir /media/z
+sudo mount -t cifs //sql2005/z /media/z -o username=Administrator,password=sisko@7660$boo,iocharset=utf8,file_mode=0777,dir_mode=0777

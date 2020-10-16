@@ -1,0 +1,7 @@
+I added :
+Quote:
+deb http://packages.dotdeb.org/ oldstable all
+Then ran :
+Quote:
+apt-get update
+apt-get install php5-cli

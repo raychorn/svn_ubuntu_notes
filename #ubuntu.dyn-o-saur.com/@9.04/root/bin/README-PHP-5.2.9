@@ -1,0 +1,17 @@
+Note to self:
+
+It seems PHP 5.2.9 is not able to properly start for Cherokee however there is a fix.
+
+Write some Python code to start a number of "php5-cgi -b 127.0.0.1:port" procs and then use them
+as remote procs in the form of a number of static fast-cgi procs.  Remember to use the proper ENV vars.
+
+The good news is PHP 5.2.9 will work however the bad news is that a bit of extra work may be required to make
+it work as may have been desired.
+
+ENV vars
+
+PHP_FCGI_MAX_REQUESTS 2000
+PHP_FCGI_CHILDREN 5
+
+See also the /root/bin/php5-fastcgi.sh file as it also seems to work albeit one cannot be sure if this will work
+for a heavily loaded server.

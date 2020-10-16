@@ -1,0 +1,8 @@
+check process pyeggs_site with pidfile /home/raychorn/pyeggs_site.pid
+  start program = "/home/raychorn/bin/start_pyeggs.sh"
+  stop program  = "/home/raychorn/bin/stop_pyeggs.sh"
+  if cpu > 60% for 2 cycles then alert
+  if cpu > 80% for 5 cycles then restart
+  if totalmem > 80.0 MB for 5 cycles then restart
+  group application
+

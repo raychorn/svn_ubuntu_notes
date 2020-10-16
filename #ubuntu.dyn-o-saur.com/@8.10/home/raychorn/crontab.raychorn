@@ -1,0 +1,10 @@
+# Global variables
+SHELL=/bin/bash
+PATH=/home/raychorn/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+MAILTO=support@vyperlogix.com
+HOME=/home/raychorn/
+
+#*/1 * * * * start_vyperlogix.sh &> /dev/null
+#*/1 * * * * start_pyeggs.sh &> /dev/null
+
+*/5 * * * * gather_feeds.sh &> /home/raychorn/logs/gather_feeds.log

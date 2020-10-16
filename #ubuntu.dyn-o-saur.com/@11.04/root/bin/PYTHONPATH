@@ -1,0 +1,1 @@
+export PYTHONPATH=/root/lib/python2.5/site-packages:/root/lib/python2.5/site-packages/vyperlogix_2_5_5.zip:/root/lib/python2.5/site-packages/pymongo-2.0.1-py2.5-linux-i686.egg:/root/lib/python2.5:/usr/share/pyshared

@@ -1,0 +1,16 @@
+a479d039a08cb0e6860bb31f2c1e912f  data/ZendExtensionManager.so
+1ae6f4863fb21e8d0be5f8c1a4e82d85  data/ZendExtensionManager_TS.so
+a62df10bf7b110a78a9677c7202cd8e3  data/4_3_x_comp/ZendOptimizer.so
+633c1b97fea07455f0fa3cec5007856b  data/4_3_x_comp/TS/ZendOptimizer.so
+660fcf90a964c1c7c452d1c7bca1d2a2  data/5_1_x_comp/ZendOptimizer.so
+29b6ecbf2cab3144b35ec89b6360506c  data/5_1_x_comp/TS/ZendOptimizer.so
+5b1fd4024cf41365cca70ddd159aa124  data/4_2_x_comp/ZendOptimizer.so
+10e2645571ecad38bff0170685e378d3  data/4_2_x_comp/TS/ZendOptimizer.so
+2dfbcc20e1ae5856025ef0678057a900  data/5_0_x_comp/ZendOptimizer.so
+07f5a51f109aed4734b0818da228eaba  data/5_0_x_comp/TS/ZendOptimizer.so
+edd3388fe091e5d5071c8ce6b1a95214  data/4_4_x_comp/ZendOptimizer.so
+64eb6036f3256459ab1ff37c077b6407  data/4_4_x_comp/TS/ZendOptimizer.so
+3651eaedc31b2e1d315c846045363dea  data/4_2_0_comp/ZendOptimizer.so
+32b56af013ff69cf272402d8ba77169a  data/5_2_x_comp/ZendOptimizer.so
+fe471dc85231c87c9e9bf2383459cab2  data/5_2_x_comp/TS/ZendOptimizer.so
+f668969b5befdbf7a8fceba8886c7342  data/zendid

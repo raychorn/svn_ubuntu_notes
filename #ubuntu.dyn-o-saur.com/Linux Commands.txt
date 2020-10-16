@@ -1,0 +1,28 @@
+~/bin/python
+
+apt-get install build-essential
+
+easy_install SQLObject
+
+svn export --force -q $SVN_HOME/$TAG $DEST/
+
+svn export --force -q https://svn.dyn-o-saur.com:8443/svn/repo1/trunk/python/pyMonit/06-02-2008-01 .
+
+
+wget http://pyinstaller.hpcf.upr.edu/source/1.3/pyinstaller_1.3.zip
+
+~/bin/python ./Make.py
+
+python ez_setup.py -d /home/raychorn/lib/python2.5/site-packages
+
+
+# Restart sshd
+
+/etc/init.d/ssh restart
+
+/etc/init.d/apache2 restart
+
+mysql --host=sql2005.gateway.2wire.net --user=root --password=peekab00 -P 3306
+
+
+ssh -L 3306:localhost:3306 geek@webserver.com

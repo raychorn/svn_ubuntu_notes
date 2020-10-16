@@ -1,0 +1,1 @@
+openssl x509 -in demoCA/cacert.pem -outform DER -out demoCA/cacert.der

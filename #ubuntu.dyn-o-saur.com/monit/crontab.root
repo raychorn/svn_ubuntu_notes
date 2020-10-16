@@ -1,0 +1,3 @@
+# Force Monit Restart in case it has gone dead...
+0-59/5 * * * * /root/start_monit.sh >> /root/start_monit.log 2>/dev/null
+

@@ -1,0 +1,9 @@
+check process sleepy_mongoose with pidfile /var/run/sleepy_mongoose.pid
+  start program = "/root/app-server/sleepy-mongoose/start_sleepy_mongoose.sh"
+  stop program  = "/root/app-server/sleepy-mongoose/stop_sleepy_mongoose.sh"
+  if cpu > 60% for 5 times within 15 cycles then alert
+  if cpu > 80% for 10 times within 15 cycles then restart
+  if totalmem > 70.0 MB for 10 times within 15 cycles then restart
+  #if failed host 127.0.0.1 port 27017 protocol HTTP request "/" then restart
+  group server
+

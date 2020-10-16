@@ -1,0 +1,11 @@
+
+Login:
+  User:              admin
+  One-time Password: zqL3r0xFw1WGpZDJ
+
+Web Interface:
+  URL:               http://localhost:9090/
+
+Cherokee Web Server 0.99.15 (May 12 2009): Listening on port ALL:9090, TLS
+disabled, IPv6 disabled, using epoll, 1024 fds system limit, max. 505
+connections, caching I/O, single thread

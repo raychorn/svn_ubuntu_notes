@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<buttons>
+  <button>
+    <website>Digg.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" href="http://digg.com/" title="Digg!" target="_blank" onclick="window.open('http://digg.com/submit?url=***url***&title=***title***&bodytext=***description***'); return false;"><img height="18px" width="18px" src="***imageDirectory***/digg.png" alt="Digg!" title="Digg!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Digg.com - JavaScript Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">digg_url = '***url***'; digg_title = '***title***'; digg_bodytext = '***description***'; digg_bgcolor = '***bgcolor***'; digg_window = 'new';</script><script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>Digg.com - JavaScript Compact Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">digg_url = '***url***'; digg_title = '***title***'; digg_bodytext = '***description***'; digg_bgcolor = '***bgcolor***'; digg_skin = 'compact'; digg_window = 'new';</script><script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Reddit.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://reddit.com/submit?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://reddit.com" title="Reddit!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/reddit.png" alt="Reddit!" title="Reddit!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Reddit.com - JavaScript Badge Style 1</website>
+    <html>
+      <![CDATA[<script>reddit_url='***url***'</script><script>reddit_title='***title***'</script><script type="text/javascript" src="http://reddit.com/button.js?t=1"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>Reddit.com - JavaScript Badge Style 2</website>
+    <html>
+      <![CDATA[<script>reddit_url='***url***'</script><script>reddit_title='***title***'</script><script type="text/javascript" src="http://reddit.com/button.js?t=2"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>Reddit.com - JavaScript Badge Style 3</website>
+    <html>
+      <![CDATA[<script>reddit_url='***url***'</script><script>reddit_title='***title***'</script><script type="text/javascript" src="http://reddit.com/button.js?t=3"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>Del.icio.us - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" href="http://del.icio.us/" title="Del.icio.us!" target="_blank" onclick="window.open('http://del.icio.us/post?v=4&noui&jump=close&url=***url_encoded***&title=***title_encoded***'); return false;"><img height="18px" width="18px" src="***imageDirectory***/delicious.png" alt="Del.icio.us!" title="Del.icio.us!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Del.icio.us - JavaScript Tall Badge</website>
+    <html>
+      <![CDATA[<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Del.icio.us - JavaScript One Line Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">if (typeof window.Delicious == "undefined") window.Delicious = {}; Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';</script><script src="http://images.del.icio.us/static/js/blogbadge.js"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>JoomlaVote - Small Button</website>
+    <html>
+      <![CDATA[<a onclick="window.open('http://www.joomlavote.com/submit.php?url=***url_encoded***'); return false;" href="http://www.joomlavote.com" title="JoomlaVote!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/joomlavote.png" alt="JoomlaVote!" title="JoomlaVote!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>JoomlaVote.com - JavaScript Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">submit_url = '***url***';</script><script type="text/javascript" src="http://www.joomlavote.com/evb/button.php"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>Google Bookmarks - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.google.com/bookmarks/mark?op=edit&bkmk=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.google.com/bookmarks/" title="Google!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/google.png" alt="Google!" title="Google!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Live.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('https://favorites.live.com/quickadd.aspx?url=***url_encoded***&title=***title_encoded***'); return false;" href="https://favorites.live.com/" title="Live!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/live.png" alt="Live!" title="Live!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Facebook.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.facebook.com/sharer.php?u=***url_encoded***&t=***title_encoded***'); return false;" href="https://www.facebook.com/" title="Facebook!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/facebook.png" alt="Facebook!" title="Facebook!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Slashdot.org - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open(' http://slashdot.org/bookmark.pl?url=***url*encoded***&title=***title_encoded***'); return false;" href="http://slashdot.org/" title="Slashdot!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/slashdot.png" alt="Slashdot!" title="Slashdot!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Netscape.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open(http://www.netscape.com/submit/?U=***url_encoded***&T=***title_encoded***'); return false;" href="http://www.netscape.com/" title="Netscape!" target="_blank"><img height="18px" width="18px" src="***imageDirectory***/netscape.png" alt="Netscape!" title="Netscape!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Technorati.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.technorati.com/faves?add=***url_encoded***'); return false;" href="http://www.technorati.com/" title="Technorati!" target="_blank"><img src="***imageDirectory***/technorati.png" alt="Technorati!" title="Technorati!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>StumbleUpon.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.stumbleupon.com/submit?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.stumbleupon.com/" title="StumbleUpon!" target="_blank"><img src="***imageDirectory***/stumbleupon.png" alt="StumbleUpon!" title="StumbleUpon!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>  
+  <website>MySpace.com - Small Button</website>  
+  <html><![CDATA[<a rel="nofollow" href="http://www.myspace.com/" title="MySpace!" target="_blank" onclick="window.open('http://www.myspace.com/Modules/PostTo/Pages/?t=***title***&u=***url***'); return false;"><img height="18px" width="18px" src="***imageDirectory***/myspace.png" alt="MySpace!" title="MySpace!" /></a>]]></html>  
+  <enabled>false</enabled>  
+  <position>bottom</position>  
+</button>
+  <button>
+    <website>Spurl.net - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.spurl.net/spurl.php?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.spurl.net/" title="Spurl!" target="_blank"><img src="***imageDirectory***/spurl.png" alt="Spurl!" title="Spurl!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Wists.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://wists.com/r.php?c=&r=***url_encoded***&tot;e=***title_encoded***'); return false;" href="http://wists.com/" title="Wists!" target="_blank"><img src="***imageDirectory***/wists.png" alt="Wists!" title="Wists!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Simpy.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.simpy.com/simpy/LinkAdd.do?href=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.simpy.com/" title="Simpy!" target="_blank"><img src="***imageDirectory***/simpy.png" alt="Simpy!" title="Simpy!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Newsvine.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open(' http://www.newsvine.com/_wine/save?u=***url_encoded***&h=***title_encoded***'); return false;" href="http://www.newsvine.com/" title="Newsvine!" target="_blank"><img src="***imageDirectory***/newsvine.png" alt="Newsvine!" title="Newsvine!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>BlinkList.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open(' http://blinklist.com/index.php?Action=Blink/addblink.php&Url=***url_encoded***&Title=***title_encoded***'); return false;" href="http://www.blinklist.com/" title="Blinklist!" target="_blank"><img src="***imageDirectory***/blinklist.png" alt="Blinklist!" title="Blinklist!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Furl.net - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://furl.net/storeIt.jsp?u=***url_encoded***&t=***title_encoded***'); return false;" href="http://www.furl.net/" title="Furl!" target="_blank"><img src="***imageDirectory***/furl.png" alt="Furl!" title="Furl!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Fark.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://cgi.fark.com/cgi/fark/submit.pl?new_url=***url_encoded***&new_comment=***title_encoded***&linktype=');return false;" href="http://fark.com" title="Fark!" target="_blank"><img src="***imageDirectory***/fark.png" alt="Fark!" title="Fark!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>BlogMarks.net - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://blogmarks.net/my/new.php?mini=1&simple=1&url=***url_encoded***&title=***title_encoded***'); return false;" href="http://blogmarks.net/" title="Blogmarks!" target="_blank"><img src="***imageDirectory***/blogmarks.png" alt="Blogmarks!" title="Blogmarks!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Yahoo! My Web - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://myweb2.search.yahoo.com/myresults/bookmarklet?u=***url_encoded***&t=***title_encoded***'); return false;" href="http://myweb2.search.yahoo.com/" title="Yahoo!" target="_blank"><img src="***imageDirectory***/yahoo.png" alt="Yahoo!" title="Yahoo!" /></a>]]>
+    </html>
+    <enabled>true</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Smarking.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://smarking.com/editbookmark/?url=***url_encoded***'); return false;" href="http://smarking.com/" title="Smarking!" target="_blank"><img src="***imageDirectory***/smarking.png" alt="Smarking!" title="Smarking!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Netvouz.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.netvouz.com/action/submitBookmark?url=***url_encoded***&title=***title_encoded***&popup=no'); return false;" href="http://www.netvouz.com/" title="Smarking!" target="_blank"><img src="***imageDirectory***/netvouz.png" alt="Netvouz!" title="Netvouz!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Mister-Wong.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.mister-wong.com/index.php?action=addurl&bm_url=***url_encoded***&bm_description=***title_encoded***'); return false;" href="http://www.mister-wong.com/" title="Mister-Wong!" target="_blank"><img src="***imageDirectory***/mister-wong.png" alt="Mister-Wong!" title="Mister-Wong!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>RawSugar.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.rawsugar.com/tagger/?turl=***url_encoded***&tttl=***title_encoded***&editorInitialized=1'); return false;" href="http://www.rawsugar.com/" title="RawSugar!" target="_blank"><img src="***imageDirectory***/rawsugar.png" alt="RawSugar!" title="RawSugar!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Ma.gnolia.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://ma.gnolia.com/bookmarklet/add?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://ma.gnolia.com/" title="Ma.gnolia!" target="_blank"><img src="***imageDirectory***/magnolia.png" alt="Ma.gnolia!" title="Ma.gnolia!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Squidoo.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.squidoo.com/lensmaster/bookmark?***url_encoded***&title=***title_encoded***'); return false;" href="http://www.squidoo.com/" title="Squidoo!" target="_blank"><img src="***imageDirectory***/squidoo.png" alt="Squidoo!" title="Squidoo!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>FeedMeLinks.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://feedmelinks.com/categorize?from=toolbar&op=submit&url=***url_encoded***&name=***title_encoded***'); return false;" href="http://feedmelinks.com/" title="FeedMeLinks!" target="_blank"><img src="***imageDirectory***/feedmelinks.png" alt="FeedMeLinks!" title="FeedMeLinks!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>BlinkBits.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.blinkbits.com/bookmarklets/save.php?v=1&source_url=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.blinkbits.com/" title="BlinkBits!" target="_blank"><img src="***imageDirectory***/blinkbits.png" alt="BlinkBits!" title="BlinkBits!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>TailRank.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://tailrank.com/share/?link_href=***url_encoded***&title=***title_encoded***'); return false;" href="http://tailrank.com/" title="Tailrank!" target="_blank"><img src="***imageDirectory***/tailrank.png" alt="Tailrank!" title="Tailrank!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>linkaGoGo.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.linkagogo.com/go/AddNoPopup?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.linkagogo.com/" title="linkaGoGo!" target="_blank"><img src="***imageDirectory***/linkagogo.png" alt="linkaGoGo!" title="linkaGoGo!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Cannotea.org - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.connotea.org/addpopup?continue=confirm&uri=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.cannotea.org/" title="Cannotea!" target="_blank"><img src="***imageDirectory***/cannotea.png" alt="Cannotea!" title="Cannotea!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Diigo.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.diigo.com/post?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.diigo.com/" title="Diigo!" target="_blank"><img src="***imageDirectory***/diigo.png" alt="Diigo!" title="Diigo!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Faves.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://faves.com/Authoring.aspx?u=***url_encoded***&t=***title_encoded***'); return false;" href="http://faves.com/" title="Faves!" target="_blank"><img src="***imageDirectory***/faves.png" alt="Faves!" title="Faves!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Ask.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://myjeeves.ask.com/mysearch/BookmarkIt?v=1.2&t=webpages&url=***url_encoded***&title=***title_encoded***'); return false;" href="http://faves.com/" title="Ask!" target="_blank"><img src="***imageDirectory***/ask.png" alt="Ask!" title="Ask!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>DZone.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.dzone.com/links/add.html?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://www.dzone.com/" title="DZone!" target="_blank"><img src="***imageDirectory***/dzone.png" alt="DZone!" title="DZone!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>DZone.com - JavaScript Tall Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">var dzone_url = '***url***';</script><script type="text/javascript">var dzone_title = '***title***';</script><script type="text/javascript">var dzone_blurb = '***description***';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>DZone.com - JavaScript Wide Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">var dzone_url = '***url***';</script><script type="text/javascript">var dzone_title = '***title***';</script><script type="text/javascript">var dzone_blurb = '***description***';</script><script type="text/javascript">var dzone_style = '2';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Swik.net - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://stories.swik.net/?submitUrl&url=***url_encoded***'); return false;" href="http://stories.swik.net/" title="Swik!" target="_blank"><img src="***imageDirectory***/swik.png" alt="Swik!" title="Swik!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Shoutwire.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.shoutwire.com/?p=submit&link=***url_encoded***'); return false;" href="http://wwww.shoutwire.net/" title="ShoutWire!" target="_blank"><img src="***imageDirectory***/shoutwire.png" alt="ShoutWire!" title="ShoutWire!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>MyLinkVault.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.mylinkvault.com/link-quick.php?u=***url_decoded***&n=***title_encoded***'); return false;" href="http://wwww.mylinkvault.net/" title="MyLinkVault!" target="_blank"><img src="***imageDirectory***/mylinkvault.png" alt="MyLinkVault!" title="MyLinkVault!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>Maple.nu - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.maple.nu/submit.php?url=***url_encoded***&title=***title_encoded***'); return false;" href="http://maple.nu/" title="Maple!" target="_blank"><img src="***imageDirectory***/maple.png" alt="Maple!" title="Maple!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>BlogRolling.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" onclick="window.open('http://www.blogrolling.com/add_links_pop.phtml?u=***url_encoded***&t=***title_encoded***'); return false;" href="http://www.blogrolling.com/" title="BlogRolling!" target="_blank"><img src="***imageDirectory***/blogrolling.png" alt="BlogRolling!" title="BlogRolling!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>AddThis.com - JavaScript Drop Down Badge</website>
+    <html>
+      <![CDATA[<!-- AddThis Bookmark Button BEGIN --><script type="text/javascript">addthis_url = '***url***'; addthis_title = '***title***'; addthis_pub = '***addThisPubId***';</script><script type="text/javascript" src="http://s7.addthis.com/js/addthis_widget.php?v=12" ></script><!-- AddThis Bookmark Button END -->]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>AddThis.com - Button Style 1</website>
+    <html>
+      <![CDATA[<!-- AddThis Bookmark Button BEGIN --><a href="http://www.addthis.com/bookmark.php" onclick="addthis_url = '***url***'; addthis_title = '***title***'; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button0-bm.gif" width="83" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = '***addThisPubId***';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script>  <!-- AddThis Bookmark Button END -->]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>AddThis.com - Button Style 2</website>
+    <html>
+      <![CDATA[<!-- AddThis Bookmark Button BEGIN --><a href="http://www.addthis.com/bookmark.php" onclick="addthis_url = '***url***'; addthis_title = '***title***'; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = '***addThisPubId***';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script>  <!-- AddThis Bookmark Button END -->]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>AddThis.com - Button Style 3</website>
+    <html>
+      <![CDATA[<!-- AddThis Bookmark Button BEGIN --><a href="http://www.addthis.com/bookmark.php" onclick="addthis_url = '***url***'; addthis_title = '***title***'; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button1-share.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = '***addThisPubId***';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script>  <!-- AddThis Bookmark Button END -->]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>AddThis.com - Button Style 4</website>
+    <html>
+      <![CDATA[<!-- AddThis Bookmark Button BEGIN --><a href="http://www.addthis.com/bookmark.php" onclick="addthis_url = '***url***'; addthis_title = '***title***'; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button1-addthis.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = '***addThisPubId***';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script><!-- AddThis Bookmark Button END -->]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>AddThis.com - Button Style 5</website>
+    <html>
+      <![CDATA[<!-- AddThis Bookmark Button BEGIN --><a href="http://www.addthis.com/bookmark.php" onclick="addthis_url = '***url***'; addthis_title = '***title***'; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button2-bm.png" width="160" height="24" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = '***addThisPubId***';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script><!-- AddThis Bookmark Button END -->]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>GodSurfer.com - Small Button</website>
+    <html>
+      <![CDATA[<a rel="nofollow" href="http://www.godsurfer.com/" title="GodSurfer!" target="_blank"   
+        onclick="window.open('http://www.godsurfer.com/addStory.php?url=***url***'); return false;">  
+        <img height="18px" width="18px" src="***imageDirectory***/godsurfer.png" alt="GodSurfer!" title="GodSurfer!" /></a>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>bottom</position>
+  </button>
+  <button>
+    <website>GodSurfer.com - JavaScript Large Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">GODSurfer_url = "***url***";</script><script src="http://www.godsurfer.com/tools/GODSurfer.js" type="text/javascript"></script>]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+  <button>
+    <website>GodSurfer.com - JavaScript Compact Badge</website>
+    <html>
+      <![CDATA[<script type="text/javascript">GODSurfer_url = "***url***"; GODSurfer_skin = "compact";</script><script src="http://www.godsurfer.com/tools/GODSurfer.js" type="text/javascript"></script> ]]>
+    </html>
+    <enabled>false</enabled>
+    <position>top</position>
+  </button>
+</buttons>

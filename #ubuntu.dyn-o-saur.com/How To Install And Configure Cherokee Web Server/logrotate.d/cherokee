@@ -1,0 +1,10 @@
+/var/log/cherokee/*.error /var/log/cherokee/*.access /var/log/cherokee.access /var/log/cherokee.error {
+  rotate 120
+  daily
+  compress
+  copytruncate
+  missingok
+  notifempty
+  copytruncate
+  mail raychorn@hotmail.com
+}

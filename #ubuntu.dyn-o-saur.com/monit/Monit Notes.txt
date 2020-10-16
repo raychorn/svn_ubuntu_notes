@@ -1,0 +1,5 @@
+Starting daemon monitor: monit won't be started/stopped
+        unless it it's configured
+        please configure monit and then edit /etc/default/monit
+        and set the "startup" variable to 1 in order to allow
+        monit to start

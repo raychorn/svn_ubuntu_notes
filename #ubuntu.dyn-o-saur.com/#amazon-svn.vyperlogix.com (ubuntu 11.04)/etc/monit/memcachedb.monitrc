@@ -1,0 +1,8 @@
+check process memcachedb with pidfile /var/run/memcachedb.pid
+  start program = "/etc/init.d/memcachedb start"
+  stop program = "/etc/init.d/memcachedb stop"
+  if cpu > 60% for 5 times within 15 cycles then alert
+  if cpu > 80% for 10 times within 15 cycles then restart
+  if totalmem > 70.0 MB for 10 times within 15 cycles then restart
+  group server
+

@@ -1,0 +1,15 @@
+#!/root/bin/python2.5
+# EASY-INSTALL-ENTRY-SCRIPT: 'pip==1.0.2','console_scripts','pip'
+import sys
+from popen import do_shell
+sys.path.insert(0,'/usr/share/pyshared')
+sys.path.insert(0,'/root/lib/python2.5/site-packages/vyperlogix_2_5_5.zip')
+sys.path.insert(0,'/root/lib/python2.5/site-packages')
+sys.path.insert(0,'/root/lib/python2.5')
+__requires__ = 'pip==1.0.2'
+import sys
+from pkg_resources import load_entry_point
+
+x = load_entry_point('pip==1.0.2', 'console_scripts', 'pip')()
+do_shell(['python2.5 /root/bin/pythonpath.py'],isExit=True,isWait=True)
+sys.exit(x)

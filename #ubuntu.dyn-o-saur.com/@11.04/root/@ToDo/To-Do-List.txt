@@ -1,0 +1,7 @@
+* Munin via Cherokee
+
+* SVN Interface via Cherokee to Apache/SVN
+* Script it !
+* Build Interface (Nagare/Cherokee/Flash Builder 4.5/JavaScript/HTML)
+
+* SSH from Windows/Mochahost for backup...

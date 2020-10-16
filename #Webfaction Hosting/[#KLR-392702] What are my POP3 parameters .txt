@@ -1,0 +1,9 @@
+Hello, > 
+
+POP3 server name ? mail4.webfaction.com > 
+
+POP3 user name ? the name of the mailbox you wish to access > 
+
+POP3 user password ? the password for the mailbox you wish to access 
+
+If you've not created any new mailboxes, then use your account username and password. 

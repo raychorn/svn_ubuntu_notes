@@ -1,0 +1,8 @@
+check process pypi_info_site with pidfile /var/run/pypi_info.pid
+  start program = "/root/bin/django/start_pypi_info.sh"
+  stop program  = "/root/bin/django/stop_pypi_info.sh"
+  if cpu > 60% for 10 times within 15 cycles then alert
+  if cpu > 80% for 10 times within 15 cycles then restart
+  if totalmem > 80.0 MB for 10 times within 15 cycles then restart
+  group application
+

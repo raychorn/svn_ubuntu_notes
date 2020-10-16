@@ -1,0 +1,8 @@
+  check process munin-node with pidfile /var/run/munin/munin-node.pid
+    start program = "/etc/init.d/munin-node start"
+    stop program = "/etc/init.d/munin-node stop"
+    if cpu > 60% for 10 times within 15 cycles then alert
+    if cpu > 80% for 10 times within 15 cycles then restart
+    if failed host 127.0.0.1 port 4949 then restart
+    if 10 restarts within 15 cycles then timeout
+    group munin

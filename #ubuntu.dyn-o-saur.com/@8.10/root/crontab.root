@@ -1,0 +1,13 @@
+# Global variables
+#SHELL=/bin/bash
+#PATH=/root/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+#MAILTO=support@vyperlogix.com
+#HOME=/root/
+
+*/15 * * * * /root/bin/start_cherokee_admin.sh
+
+*/15 * * * * /root/bin/update_awstats.sh
+
+0 0 * * * /etc/init.d/monit restart
+
+
